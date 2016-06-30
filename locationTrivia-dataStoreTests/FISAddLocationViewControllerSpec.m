@@ -8,6 +8,7 @@
 
 #import "FISAddLocationViewController.h"
 #import "FISLocationsDataStore.h"
+#import "FISLocation.h"
 
 #import <Specta/Specta.h>
 #import <Expecta/Expecta.h>

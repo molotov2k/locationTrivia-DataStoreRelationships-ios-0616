@@ -137,7 +137,7 @@ describe(@"locationTriviaDataStore", ^{
         });
         
         it(@"Should save trivium when save button tapped", ^{
-            triviumTextField = (UITextField *)[tester waitForViewWithAccessibilityLabel:@"Trivium TextField"];
+            triviumTextField = (UITextField *)[tester waitForViewWithAccessibilityLabel:@"Trivium Text Field"];
             triviumTextField.text = triviumText;
             
             [tester tapViewWithAccessibilityLabel:@"Save Button"];
